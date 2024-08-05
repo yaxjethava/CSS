@@ -1,0 +1,101 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+  
+}
+body{
+    margin: 0;
+    background-image: url(netflixbg.jpg);
+}
+.nav2 {
+    background-color: #040404d6;
+    height: 80px;
+    
+ 
+}
+
+img{
+    margin:20px 0;
+    margin-left: 15rem;
+}
+ul{
+    margin-top: 22px;
+    float:right;
+}
+
+ul > li{
+    display:inline-block;
+    margin:4px 15px;
+}
+
+ul > li > a {
+    color:white;
+} 
+
+ul > li >a:hover{
+    color:#e50813;
+}
+.b{
+margin-right:14rem;
+margin-left: 5rem;
+}
+
+.b1{
+    margin-right: 2rem;
+    width:85px;
+    height:37px;
+    background-color: #00000041;
+    border-radius: 5px;
+    border:1px solid white;
+    
+}
+.b1:hover{
+    margin-right: 2rem;
+    width:85px;
+    height:37px;
+    background-color: #e50813;
+    border-radius: 5px;
+    border:none;
+    
+}
+
+
+.b2{
+    width:85px;
+    height:37px;
+    background-color: #e50813;
+    border-radius: 5px;
+    border:none;
+    
+}
+
+.b2:hover{
+    width:85px;
+    height:37px;
+    background-color: #00000041;
+    border-radius: 5px;
+    border:1px solid whitesmoke;
+    
+}
+
+.b1 > a{
+    color:white;
+    font-size: 1rem;
+}
+
+.b1 > a:hover{
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+.b2 > a{
+    color:white;
+    font-size: 1rem;
+}
+
+.b2 > a:hover{
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}

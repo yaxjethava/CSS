@@ -1,0 +1,49 @@
+h1{
+ background: blueviolet;
+ color:antiquewhite;
+ font-size: 3rem;
+ font-family: monospace; 
+}
+
+ul > li{
+    background-color: aqua;
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+    
+}
+
+ol > li:nth-child(even){
+    background-color: bisque;
+    border: 3px solid rgb(37, 255, 211);
+}
+ol > li:nth-child(odd){
+    background-color: red;
+    border: 3px solid black;
+}
+p{
+    font-size: 1rem;
+    font-family:sans-serif;
+    background-color:whitesmoke;
+    word-spacing: 1rem;
+    line-height:2rem;
+    letter-spacing:2px;
+
+}
+h2{
+    font-weight:1000;
+    font-size:3rem;
+    color:white;
+    background-color: rgb(246, 140, 140);
+}
+
+ul >li::marker{
+    color:rgb(255, 0, 170)
+}
+
+ol > li:nth-child(even) {
+    color: rgb(255, 20, 20);
+  }
+
+  ol > li:nth-child(odd) {
+    color: bisque;
+  }

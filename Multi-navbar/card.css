@@ -1,0 +1,197 @@
+.section{
+    width:1385px;
+    height:85vh;
+    background-color: rgb(79, 107, 118);
+    margin: 0 auto;
+    transform:translateY(50px);
+    padding-left:px;
+}
+
+.box1{
+    width:250px;
+    height:340px;
+    background-color: rgba(241, 21, 21, 0.655);
+    margin: 0 auto;
+    transform:translateY(125px);
+    overflow: hidden;
+    box-shadow:6px 9px 9px 4px black;
+    border-radius: 10px;
+    float:left;
+    margin-left: 120px;
+}
+
+.aio{
+    /* allbox */
+
+    width:250px;
+    height:340px;
+    margin: 0 auto;
+    transform:translateY(125px);
+    overflow: hidden;
+    border-radius: 10px;
+    float:left;
+    margin-left: 50px;
+    box-shadow:6px 9px 9px 4px black;
+}
+
+.cars{
+margin-left: -25px;
+margin-top: 0;
+
+}
+
+.heding1 > h3{
+    color:rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-left: 50px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.858);
+}
+.containt > p{
+    color:rgb(115, 5, 5);
+    text-align: center;
+    text-shadow:1px 1px 3px rgba(255, 255, 255, 0.836);
+}
+
+.price> p{
+    color:rgb(214, 214, 214);
+    margin-left:25px;
+    margin-top:20px;
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.934);
+    font-weight:550;
+    float:left;
+    font-size: 18px;
+}
+
+.button >a > button{
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    color:rgb(255, 251, 251);
+    background-color:rgba(226, 0, 19, 0.921);
+    margin-left:55px;
+    margin-top:15px;
+    box-shadow:2px 3px 5px 1px  black;
+    cursor:pointer;
+}
+
+/* for urus */
+
+.box2{
+    background-color:#8b8b99;
+}
+.heding2 > h3{
+    color:rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-left: 35px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.858);
+}
+
+.containt2 > p{
+    color:rgb(47, 42, 42);
+    text-align: center;
+    text-shadow:1px 1px 3px rgba(255, 255, 255, 0.836);
+}
+
+.price2 > p{
+    color:rgb(231, 230, 230);
+    margin-left:25px;
+    margin-top:20px;
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.934);
+    font-weight:550;
+    float:left;
+    font-size: 18px;
+}
+
+.button2 >a > button{
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    background-color:#c5c5cc;
+    margin-left:45px;
+    margin-top:15px;
+    box-shadow:2px 3px 5px 1px  rgb(41, 41, 41);
+    cursor:pointer;
+}
+
+/* for Buggati */
+
+.box3{
+    background-color:#3575bd;
+}
+.heding3 > h3{
+    color:rgb(30, 32, 32);
+    font-size: 1.3rem;
+    margin-left: 22px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.858);
+}
+
+.containt3 > p{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    text-shadow:1px 1px 2px rgba(255, 255, 255, 0.836);
+}
+
+.price3 > p{
+    color:rgb(213, 212, 212);
+    margin-left:25px;
+    margin-top:20px;
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.934);
+    font-weight:550;
+    float:left;
+    font-size: 18px;
+}
+
+.button3 >a > button{
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    color:rgb(249, 249, 249);
+    background-color:#3b3bce;
+    margin-left:35px;
+    margin-top:15px;
+    box-shadow:4px 3px 8px 0px rgb(184, 179, 179);
+    cursor:pointer;
+
+}
+
+/* for Conisegera */
+
+.box4{
+    background-color:#afc1d0;
+}
+.heding4 > h3{
+    color:rgb(30, 32, 32);
+    font-size: 1.3rem;
+    margin-left: 45px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.858);
+}
+
+.containt4 > p{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    text-shadow:1px 1px 2px rgba(255, 255, 255, 0.836);
+}
+
+.price4 > p{
+    color:rgb(0, 0, 0);
+    margin-left:25px;
+    margin-top:20px;
+    text-shadow:2px 2px 3px rgba(133, 140, 143, 0.934);
+    font-weight:550;
+    float:left;
+    font-size: 18px;
+}
+
+.button4 >a > button{
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    color:rgb(249, 249, 249);
+    background-color:#476f8f;
+    margin-left:45px;
+    margin-top:15px;
+    box-shadow:4px 3px 8px 0px #000000;
+    cursor: pointer;
+
+}
