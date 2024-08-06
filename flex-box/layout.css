@@ -1,0 +1,184 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    border: 4px solid black;
+}
+
+.navbar {
+    display: flex;
+    border: 2px solid rgb(31, 195, 31);
+    width: 100%;
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    border: 2px solid rgb(153, 255, 0);
+}
+
+.logo>img {
+    height: 100%;
+    width: 50%;
+}
+
+.menu {
+    width: 62%;
+    border: 2px solid rgb(153, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu>ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.menu>ul>li>a {
+    display: flex;
+    margin: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menubutton {
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    border: 2px solid rgb(153, 255, 0);
+}
+
+.herobox {
+    width: 100%;
+    height: 450px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    width: 55%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 0);
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.lefttop {
+    width: 100%;
+    height: 70%;
+    border: 3px solid rgb(6, 255, 238);
+}
+
+.leftbottom {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    border: 3px solid rgb(6, 255, 238);
+}
+
+.leftbottombox {
+    border: 3px solid rgb(255, 1, 255);
+    height: 100%;
+    width: 33%;
+}
+
+
+.right {
+    width: 35%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.ourpartner {
+    height: 35px;
+    width: 100%;
+    border: 1px solid rgb(26, 255, 0);
+}
+
+.partners {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    border: 3px solid rgb(0, 51, 255);
+}
+
+.company {
+    width: 20%;
+    height: 47px;
+    border: 2px solid rgb(251, 255, 0);
+}
+
+.niftybox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    border: 3px solid red;
+}
+
+.nifyboxleft {
+    width: 35%;
+    height: 448px;
+    border: 2px solid rgb(0, 0, 255);
+}
+
+.nifyboxright {
+    width: 60%;
+    height: 448px;
+    border: 2px solid rgb(0, 0, 255);
+}
+
+.niftysmallbox{
+    width:98%;
+    height:33%;
+    border:1px solid black;
+}
+
+.niftybigbox2{
+    width:100%;
+    height:14%;
+    border:3px solid goldenrod;
+}
+
+.niftybox1{
+    width:100%;
+    height:30px;
+    border:1px solid black;
+}
+
+.niftybox2{
+    width:100%;
+    height:40px;
+    border:1px solid black;
+}
+
+.niftybox3{
+    width:100%;
+    height:50px;
+    border:1px solid black;
+}
+
+.fourimages{
+    display: flex;
+    width:100%;
+    height:300px;
+    border:3px solid rgb(255, 0, 238);
+}
+.image1{
+    width:25%;
+    height:100%;
+    border:1px solid greenyellow;
+}
