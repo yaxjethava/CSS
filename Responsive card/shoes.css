@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background:url(bg1.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+}
+
+.box {
+    display: flex;
+    width: 800px;
+    height: 350px;
+    box-shadow: 0px 0px 20px 4px #acadac;
+}
+
+img{
+    width:"50%";
+    height:"100%";
+}
+
+.right {
+    padding:15px;
+    width: 440px;
+    height: 320px;
+    background-color: #acadac;
+}
+
+.right >h1{
+    margin: 15px 0px;
+    text-align: justify;
+    color:#84653f;
+}
+
+p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align:center;
+}
+
+.color{
+    color:rgb(96, 81, 38);
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align:justify;
+}
+
+.price{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 10px;;
+    font-weight: bold;
+    text-align:left;
+}
+
+.button > a{
+    color:rgb(255, 255, 255);
+
+}
+.button{
+    font-size: 16px;
+    background-color: black;
+    width:120px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.button > a:hover{
+    color:rgb(255, 255, 155);
+
+}
+
+.button:hover{
+    font-size: 16px;
+    background-color:rgb(96, 81, 38);
+    width:120px;
+    height:40px;
+    border-radius: 20px;
+    box-shadow:0px 1px 7px 2px #ffffff;
+    cursor:pointer;
+}
+
+@media(width<=450px){
+
+.container{
+   
+    width:100%;
+    height:100vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:auto;
+
+}
+img{
+    width: 90%;
+    height: 370px;
+    box-shadow:0px 0px 9px 4px #cacaca;
+}
+.right{
+    background-color: rgb(212, 212, 212);
+    width:83.2%;
+    height: 90%;
+    box-shadow:0px 0px 9px 4px #cacaca;
+
+}
+
+.right > h1{
+    text-align: center;
+}
+
+p{
+    text-align:justify;
+    font-size: 1.2rem;
+    color:rgb(142, 92, 0);
+}
+
+.color{
+    font-size: 1.1rem;
+    text-align:left;
+    margin: 0;
+}
+
+.price{
+    color:black;
+    font-size: 1.5rem;
+}
+
+
+.button{
+    width:180px;
+    height: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    width:180px;
+    height: 50px;
+    font-size: 1.2rem;
+    color:rgb(255, 255, 155);
+    background-color:rgb(96, 81, 38);
+    box-shadow:0px 1px 5px 4px #ffffff;
+    cursor:pointer;
+}
+
+
+}
