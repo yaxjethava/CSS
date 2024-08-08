@@ -4,44 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chess board</title>
+    <title>Chess board-float</title>
     <style>
-        .main{
-            display: flex;
-            justify-content: center;
-            background-color: rgb(7, 185, 155);
-        }
+      body{
+        background-color: rgb(7, 185, 155);
+      }
         h1{
-            display: flex;
-            justify-content:center;
-            color:whitesmoke;
+            text-align: center;
+            color:rgb(0, 0, 0);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         .rows {
-            display: flex;
+            float:right;
+            margin-right:6%;
+            width: 70vw;
+            height: 100px;
         }
+        .box:hover{
+            box-shadow: inset 0px 0px 2px 3px rgb(255, 0, 0);
+        }
+
         .box {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 55px;
+            font-size: 60px;
+            text-align: center;
             border: 1px solid black;
-            width: 95px;
-            height: 95px;
+            width: 100px;
+            height: 100px;
             text-shadow: 2px 2px 1px white;
         }
         .b {
+            float:left;
             background-color: black;
         }
         .w {
+            float:left;
             background-color: white;
         }
     </style>
 </head>
 <body>
     <div class="main">
-    <div class="mainbox">
-            <h1>Chess Board</h1>
+        <h1>Chess Board-Float</h1>
         <div class="rows">
             <div class="box b">♖</div>
             <div class="box w">♘</div>
@@ -123,6 +126,5 @@
             <div class="box b">♖</div>
         </div>
     </div>
-</div>
 </body>
 </html>
