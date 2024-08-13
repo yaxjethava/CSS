@@ -1,0 +1,723 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px 0px gray;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width:15%;
+}
+
+nav>img {
+    width: 60px;
+}
+
+.menu {
+    width:60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttonIcon{
+    display: flex;
+    justify-content: space-evenly;
+    width:20%;
+}
+.button>button {
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 157, 255);
+    font-weight: 550;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.button>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+
+.search>input {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-left: 6%;
+}
+
+.search>i {
+    margin-left: 15%;
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    height: 300vh;
+}
+
+.banner {
+    width: 96%;
+    border-radius: 50px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.banner>img {
+    width: 100%;
+}
+
+
+/* For container image */
+
+/* Row1  */
+
+
+.card1>.ribbin1 {
+    z-index: 1;
+
+    position: absolute;
+    margin-top: 1%;
+}
+
+/* for like button */
+.card1>.likeb {
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    width: 35px;
+    background-color: white;
+    transform: translateX(415%);
+    font-size: 22px;
+    height: 35px;
+    position:absolute;
+}
+.card1>.likeb>i:hover{
+   background-color: red;
+   border-radius: 5px;
+   
+}
+
+/* for cards images */
+.img1 {
+    margin: 8px 9px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img1>img {
+    width: 100%;
+}
+
+/* for product containt */
+
+.containt1 {
+    padding: 10px;
+}
+
+.cp1 {
+    font-size: 13px;
+    color: rgba(162, 162, 162, 0.937);
+}
+
+/* card button and star icon */
+.cb1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 43px;
+    margin-top: 7%;
+}
+
+.cb1>.star1>i {
+    font-size: 20px;
+}
+
+.cb1>.Trialp {
+    width: 30%;
+    font-size: 11px;
+    color: black;
+    font-weight: 600;
+}
+
+
+/* for button */
+
+.cb1>.bb1 {
+    width: 40%;
+}
+
+.cb1>.bb1>.b1 {
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: #2093ff;
+    border: none;
+}
+
+.cb1>.bb1>.b1:hover{
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: #0026fe;
+    border: none;
+}
+
+.bb1>.b1>a {
+
+    font-size: 14px;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+
+
+@media (min-width:1439px) {
+
+    .mobilemenus {
+        display: none;
+    }
+
+    /* for large laptop and other large device */
+
+    .firstrow1,
+    .firstrow2,
+    .firstrow3 {
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+        max-width: 1250px;
+        border-radius: 20px;
+        height: auto;
+        overflow: hidden;
+        /* border: 1px solid red; */
+    }
+
+    .card1 {
+        margin: 10px 10px;
+        width: 185px;
+        height: 325px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 12px;
+
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px) {
+
+    .mobilemenus {
+        display: none;
+    }
+
+    /* for normal small laptop*/
+
+    .card1>.likeb {
+        transform: translateX(330%);
+    }
+    .firstrow1,
+    .firstrow2,
+    .firstrow3 {
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+        max-width: 1250px;
+        border-radius: 20px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .card1 {
+        margin: 18px 8px;
+        width: 185px;
+        height: 325px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 12px;
+        flex-shrink: 5;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    nav {
+        display: none;
+    }
+
+    /* For tablet top navbar*/
+    .mobiletopnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid rgba(148, 147, 147, 0.649);
+    }
+
+    .mobiletoplogo {
+        display: flex;
+        justify-content: center;
+        width: 15%;
+
+    }
+
+    .mti1>i {
+        font-size: 18px;
+    }
+
+    .mobiletopicon {
+        display: flex;
+        justify-content: space-around;
+        width: 15%;
+    }
+
+    /* for tablet buttom menu */
+    .mobileButtommenu {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        z-index: 990;
+        width: 100%;
+        height: 55px;
+        background-color: rgb(255, 255, 255);
+        border-top: 1px solid rgb(223, 223, 223);
+    }
+
+    .mbi1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+
+        width: 25%;
+        height: 100%;
+        font-size: 22px;
+    }
+
+    .card1>.likeb {
+       
+        transform: translateX(550%);
+       
+    }
+    /* for tablet*/
+
+    .firstrow1,
+    .firstrow2,
+    .firstrow3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px auto;
+        max-width: 1250px;
+        border-radius: 20px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .card1 {
+        margin: 18px 15px;
+        width: 215px;
+        flex-shrink: 5;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 12px;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+
+    nav {
+        display: none;
+    }
+
+    .banner {
+        width: 99%;
+        border-radius: 25px;
+        margin: 10px auto;
+        overflow: hidden;
+        box-shadow: 0px 1px 3px 1px rgb(148, 148, 148);
+
+    }
+
+    /* For small tablet top navbar*/
+    .mobiletopnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid rgba(148, 147, 147, 0.649);
+    }
+
+    .mobiletoplogo {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+
+    }
+
+    .mti1>i {
+        font-size: 17px;
+    }
+
+    .mobiletopicon {
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+
+    /* for small tablet buttom menu */
+    .mobileButtommenu {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        border-top: 1px solid rgb(223, 223, 223);
+    }
+
+    .mbi1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        height: 100%;
+        font-size: 18px;
+    }
+
+
+    /* for small tablet*/
+
+    .card1>.likeb {
+       
+        transform: translateX(610%);
+       
+    }
+    .firstrow1,
+    .firstrow2,
+    .firstrow3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 40px auto;
+        max-width: 1024px;
+        border-radius: 20px;
+        height: auto;
+        overflow: hidden;
+
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 250px;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 12px;
+    }
+
+    .card1>.ribbin1 {
+        position: absolute;
+        margin-top: 3%;
+    }
+    
+    /* for like button */
+    .card1>.likeb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 13px;
+        width: 35px;
+        background-color: white;
+        font-size: 22px;
+        height: 35px;
+        position: absolute;
+    }
+    .card1>.likeb>i:hover{
+       background-color: red;
+       border-radius: 5px;
+       
+    }
+    
+    /* for cards images */
+    .img1 {
+        margin: 8px 9px;
+        box-sizing: border-box;
+        width: 95%;
+        height: 60%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .img1>img {
+        width: 100%;
+    }
+    
+    /* for product containt */
+    
+    .containt1 {
+        padding: 10px;
+    }
+    
+    .cp1 {
+        font-size: 13px;
+        color: rgba(162, 162, 162, 0.937);
+    }
+    
+    /* card button and star icon */
+    .cb1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 43px;
+        margin-top: 18%;
+    }
+    
+    .cb1>.star1>i {
+        font-size: 20px;
+    }
+    
+    .cb1>.Trialp {
+        width: 30%;
+        font-size: 11px;
+        color: black;
+        font-weight: 600;
+    }
+    
+    
+    /* for button */
+    
+    .cb1>.bb1 {
+        width: 50%;
+    }
+    
+    .cb1>.bb1>.b1 {
+        border-radius: 18px;
+        width: 100%;
+        height: 35px;
+        background-color: #2093ff;
+        border: none;
+    }
+    
+    .cb1>.bb1>.b1:hover{
+        border-radius: 15px;
+        width: 100%;
+        height: 30px;
+        background-color: #0026fe;
+        border: none;
+    }
+    
+    .bb1>.b1>a {
+    
+        font-size: 14px;
+        color: white;
+        font-weight: 550;
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width:426px) {
+
+    nav {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        border-radius: 15px;
+        margin: 5px auto;
+        overflow: hidden;
+        box-shadow: 0px 1px 2px 1px rgb(148, 148, 148);
+    }
+
+    /* For Mobile top navbar*/
+    .mobiletopnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 53px;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid rgba(148, 147, 147, 0.649);
+    }
+
+    .mobiletoplogo {
+        display: flex;
+        justify-content: center;
+        width: 35%;
+
+    }
+
+    .mti1>i {
+        font-size: 16px;
+    }
+
+    .mobiletopicon {
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+
+    /* for Mobile buttom menu */
+    .mobileButtommenu {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        background-color: rgb(255, 255, 255);
+     z-index: 900;
+        border-top: 1px solid rgb(223, 223, 223);
+    }
+
+    .mbi1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        height: 100%;
+        font-size: 18px;
+    }
+
+    .card1>.likeb {
+       
+        transform: translateX(850%);
+       
+    }
+
+    /* for Phone*/
+
+    .firstrow1,
+    .firstrow2,
+    .firstrow3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px auto;
+        padding: 15px;
+        max-width: 1024px;
+        border-radius: 20px;
+        height: auto;
+        overflow: hidden;
+
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 90%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 12px;
+    }
+    /* for cards images */
+    .img1 {
+        margin: 8px 9px;
+        box-sizing: border-box;
+        width: 95%;
+        height: 75%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .img1>img {
+        width: 100%;
+    }
+    
+    /* for product containt */
+    
+    .containt1 {
+        padding: 20px;
+    }
+    
+    .cp1 {
+        font-size: 13px;
+        color: rgba(162, 162, 162, 0.937);
+    }
+    
+    /* card button and star icon */
+    .cb1 {
+        margin-top: 2%;
+    }
+    
+    .cb1>.star1>i {
+        font-size: 20px;
+    }    
+    
+    /* for button */
+    
+    .cb1>.bb1 {
+        width: 42%;
+    }
+
+    
+    .cb1>.bb1>.b1:hover{
+        border-radius: 15px;
+        width: 100%;
+        height: 30px;
+        background-color: #0026fe;
+        border: none;
+    }
+   
+    @media(width<375px){
+        .card1>.likeb {
+       
+           visibility: hidden;
+        }
+    } 
+}
